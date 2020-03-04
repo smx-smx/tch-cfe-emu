@@ -158,10 +158,10 @@ static void trace(uc_engine *uc, uint64_t address){
 }
 
 int do_emu(
-	const char *eckKeyPath,
 	const char *boot1Path,
 	const char *boot3Path,
 	const char *nandPath,
+	const char *eckKeyPath,
 	bool traceEnabled
 ){
 	uc_arch arch = UC_ARCH_ARM;
